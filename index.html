@@ -36,6 +36,11 @@
       stroke-width: 0;
     }
 
+    .has-large-font-size {
+        font-family: "avenir", sans-serif;
+        font-size:28px;
+    }
+
     .axisClear path{
       stroke-width: 0;
 
@@ -44,7 +49,7 @@
         margin-left: 0px;
         font-family: "avenir", sans-serif;
         font-style: "bold";
-        font-size:30px;
+        font-size:34px;
     }
     .subtitle{
         margin-left: 0px;
@@ -52,6 +57,12 @@
         font-size:15px;
 
     }
+
+    p {
+        font-family: "avenir", sans-serif;
+        font-size:16px;
+    }
+
     .axisGrey line{
       stroke: #666666;
     }
@@ -89,8 +100,9 @@
 <iframe title="Artists whose discography I listened to the most in 2020" aria-label="Bar Chart" id="datawrapper-chart-reRR6" src="https://datawrapper.dwcdn.net/reRR6/1/" scrolling="no" frameborder="0" style="border: none;" width="550" height="431" data-external="1"></iframe>
 <p class="has-large-font-size"><strong>Song-related trends</strong></p>
 <iframe title="My top 15 songs of 2022" aria-label="Bar Chart" id="datawrapper-chart-tAIHK" src="https://datawrapper.dwcdn.net/tAIHK/1/" scrolling="no" frameborder="0" style="border: none;" width="520" height="896" data-external="1"></iframe>
-<br>
+<br><br>
 <iframe title="My favorite 2022 songs with the lowest skip ratio" aria-label="Bar Chart" id="datawrapper-chart-8bYxy" src="https://datawrapper.dwcdn.net/8bYxy/1/" scrolling="no" frameborder="0" style="border: none;" width="520" height="684" data-external="1"></iframe>
+<br><br>
 <iframe title="My favorite songs each month of 2022" aria-label="Column Chart" id="datawrapper-chart-mGPbA" src="https://datawrapper.dwcdn.net/mGPbA/1/" scrolling="no" frameborder="0" style="border: none;" width="1000" height="400" data-external="1"></iframe>
 <p class="has-large-font-size"><strong>The challenge with genres</strong></p>
 <p>From obscure categories like Metropopolis and bubblegrunge to broad classifications like pop and disco, top genres is always a Spotify Wrapped highlight. I wanted to see where my genre preferences fell overtime. To do this I set up a script using the api to obtain the artist id of every artist in my history and then merged that with my streaming data. I was surprised that genres are classified by artists rather than individual songs, meaning something like Taylor Swift's debut is still considered pop. The other major challenge to the genre data is that each artist has an array of genres assigned to them. Kylie Minogue returns: ['australian dance', 'australian pop', 'dance pop', 'electropop', 'eurodance', 'europop', 'new wave pop', 'pop']. The overlap made it hard to identify my top genres and compare them overtime. Nevertheless, I did find the it interesting to see how different album releases and discoveries influenced my listening moods.</p>
